@@ -1,16 +1,16 @@
 import { Logo } from "@/once-ui/components";
 
 const person = {
-  firstName: "Narendar",
-  lastName: "Shaw",
+  firstName: "Madhu",
+  lastName: "sri",
   get name() {
     return `${this.firstName} ${this.lastName}`;
   },
   role: "Design Engineer",
   avatar: "/images/avatar.jpg",
   email: "example@gmail.com",
-  location: "Asia/Jakarta", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-  languages: ["English", "Bahasa"], // optional: Leave the array empty if you don't want to display languages
+  location: "Asia/Kolkata", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+  languages: ["English", "Hindi"], // optional: Leave the array empty if you don't want to display languages
 };
 
 const newsletter = {
@@ -30,7 +30,7 @@ const social = [
   {
     name: "GitHub",
     icon: "github",
-    link: "https://github.com/once-ui-system/nextjs-starter",
+    link: "https://github.com/madhu102006/magic-portfolio",
   },
   {
     name: "LinkedIn",
@@ -55,7 +55,7 @@ const home = {
   label: "Home",
   title: `${person.name}'s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Building bridges between design and code</>,
+  headline: <>Bringing innovative designs to life with code.</>,
   featured: {
     display: true,
     title: (
@@ -67,7 +67,7 @@ const home = {
   },
   subline: (
     <>
-      I'm Selene, a design engineer at{" "}
+      I'm Madhusri, a design engineer at{" "}
       <Logo
         icon={false}
         style={{ display: "inline-flex", top: "0.25em", marginLeft: "-0.25em" }}
@@ -99,7 +99,7 @@ const about = {
     title: "Introduction",
     description: (
       <>
-        Selene is a Jakarta-based design engineer with a passion for
+        Madhusri is a Kolkata-based design engineer with a passion for
         transforming complex challenges into simple, elegant design solutions.
         Her work spans digital interfaces, interactive experiences, and the
         convergence of design and technology.
@@ -111,7 +111,7 @@ const about = {
     title: "Work Experience",
     experiences: [
       {
-        company: "FLY",
+        company: "WIPRO",
         timeframe: "2022 - Present",
         role: "Senior Design Engineer",
         achievements: [
@@ -157,8 +157,8 @@ const about = {
     title: "Studies",
     institutions: [
       {
-        name: "University of Jakarta",
-        description: <>Studied software engineering.</>,
+        name: "Kakatiya Institute Of Technology",
+        description: <>Studied Computer Science engineering.(Btech)</>,
       },
       {
         name: "Build the Future",
